@@ -74,11 +74,11 @@ if __name__ == '__main__':
     #                 "exponential")
     # save_test_cases(apply_liknorm(get_geometrics(), normals, -500, -1e-5),
     #                 "geometric")
-    save_test_cases(apply_liknorm(get_binomials(), normals, -1000, 1000),
-                    "binomial")
-    # save_test_cases(apply_liknorm(get_bernoullis(), normals, -1000, 1000),
-    #                 "bernoulli")
-    # save_test_cases(apply_liknorm(get_poissons(), normals, -1000, 1000),
-    #                 "poisson")
-    # save_test_cases(apply_liknorm(get_gammas(), normals, -500, -1e-5),
-    #                 "gamma")
+    # save_test_cases(apply_liknorm(get_binomials(), normals, -1000, 1000),
+    #                 "binomial")
+    save_test_cases(apply_liknorm(get_bernoullis(), normals, -1000, 1000),
+                    "bernoulli")
+    save_test_cases(apply_liknorm(get_poissons(), normals, -1000, 1000),
+                    "poisson")
+    save_test_cases(apply_liknorm(get_gammas(), normals, -500, -1e-5),
+                    "gamma")
